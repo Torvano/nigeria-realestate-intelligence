@@ -81,20 +81,22 @@ All data extracted from primary sources. No secondhand aggregation.
 | Knight Frank Nigeria Prime Real Estate Report | Actual transaction prices and rental yields |
 | IMF Article IV Consultation — Nigeria | Independent systemic risk assessment |
 
+```
 nigeria-realestate-intelligence/
 │
-├── data/ # Raw datasets from primary sources
-│ ├── cbn_fsr_data.csv # CBN Financial Stability Report figures
-│ ├── nbs_gdp_data.csv # NBS GDP sectoral breakdown
-│ └── nbs_cpi_data.csv # NBS Consumer Price Index housing component
+├── data/                    # Raw datasets from primary sources
+│   ├── cbn_fsr_data.csv     # CBN Financial Stability Report figures
+│   ├── nbs_gdp_data.csv     # NBS GDP sectoral breakdown
+│   └── nbs_cpi_data.csv     # NBS Consumer Price Index housing component
 │
-├── analysis/ # SQL queries interrogating the data
-│ ├── cbn_exposure_trend.sql
-│ ├── npl_acceleration.sql
-│ └── investment_fund_migration.sql
+├── analysis/                # SQL queries interrogating the data
+│   ├── cbn_exposure_trend.sql
+│   ├── npl_acceleration.sql
+│   └── investment_fund_migration.sql
 │
-└── reports/ # Written findings and methodology
-└── source_one_findings.md
+└── reports/                 # Written findings and methodology
+    └── source_one_findings.md
+```
 
 
 ---
